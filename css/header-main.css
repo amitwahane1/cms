@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header-wrapper{
+    max-width: 100%;
+    height: 33vh;
+    //background-color: red;
+    background: linear-gradient(#E26962 , #EB298E);// #B6BDC3 , #586A7E
+    //background: linear-gradient(45deg,rgba(255,101,165,1) 0,rgba(255,101,165,1) 13%,rgba(255,107,154,1) 35%,rgba(255,134,106,1) 100%);
+}
+
+.header-container{
+    padding-top: 30px;
+    border-bottom:1px solid;
+}
+
+#log{
+    position: absolute;
+    background: url("lok.jpeg");
+    width: 120px;
+    left: -40px;
+    height: 100px;
+    background-size:150px;
+    margin: 0% 50px 0px 17%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    //background-color: hotpink;
+    //background-position: center;
+    z-index: 1;
+    
+
+}
+.logo{
+    margin: 0px 0px 0px 0px;
+    
+}
+.clg-name{
+    position: absolute;
+    width: 50%;
+    height: 11vh;
+    //margin: 45px 0px 0px 60%;
+    top:12.5%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    //background-color: yellow;
+    color:white;
+}
+#p{
+    line-height: 2;
+}
+.navBar{
+    position: absolute;
+    width: 80%;
+    height: 7vh;
+    //background: #0056d2;
+    margin: 10% 0% 0px 9%;
+    background: linear-gradient(#B6BDC3 , #586A7E);
+    border-radius: 3px;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.1);
+
+}
+
+.navBar li{
+    list-style: none;
+    display:inline-block;
+    padding: 15px 10px 0px 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.navBar i{
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.helpDesk{
+    width: 100%;
+    height: 40vh;
+   // background:url("banner.jpeg");
+    //background-color:rgba(11,156,49,0.1);
+    
+
+}
+
+
+.subHelpdesk{
+    display: inline-block;
+    //border: 2px solid black;
+    color: white;
+    width: 15%;
+    padding: 5px;
+    height: 30vh;
+    //background:rgba(255,255,255,.2);
+    margin: 20px 0px 0px 50px;
+    
+    
+}
+
+#img1{
+    background: url("E:\html\Css\gym\cms\images");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    mix-blend-mode: multiply;
+
+}
+
+#img2{
+    background: url("fship.png");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    mix-blend-mode: multiply;   
+
+}
+
+#img3{
+    background: url("fee.png");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    mix-blend-mode: multiply;
+
+
+}
+
+#img4{
+    background: url("Notice.png");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    mix-blend-mode: multiply;
+
+}
+
+#img5{
+    background: url("grievance.png");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    mix-blend-mode: multiply;
+
+}
+ .subHelpdesk h2{
+  margin: 5px 0px 0px 13px;
+   color:black;
+   text-align: center;
+}
+
+
+
+.recruiters{
+    width: 100%;
+    height: 50vh;
+  //  background-color:rgba(68, 67, 67, 0.1);
+    //margin: 40px 0px 0px 0px;
+}
+
+.recruitBox{
+    display:inline-block;
+    position: relative;
+    height: 15vh;
+//    background-color:rgb(100, 100, 100);
+    width: 15%;
+    margin: 20px 0px 0px 19px;
+
+}
+
+ .amit h1{
+    text-align: center;
+     padding:20px;
+}
+
+#recImg{
+    background: url("microfuzzy.png");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode:multiply;
+}
+
+#recImg1{
+    background: url("larson.png");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    
+}
+
+#recImg2{
+    background: url("Infosys.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
+#recImg3{
+    background: url("amazon.png");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
+#recImg4{
+    background: url("TCS.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
+#recImg5{
+    background: url("flipcart.png");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
