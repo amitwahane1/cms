@@ -9,9 +9,9 @@ body{
 .header-wrapper{
     max-width: 100%;
     height: 33vh;
-    //background-color: red;
-    background: linear-gradient(#E26962 , #EB298E);// #B6BDC3 , #586A7E
-    //background: linear-gradient(45deg,rgba(255,101,165,1) 0,rgba(255,101,165,1) 13%,rgba(255,107,154,1) 35%,rgba(255,134,106,1) 100%);
+    /*background-color: red;*/
+    background: linear-gradient(#E26962 , #EB298E);
+    /*background: linear-gradient(45deg,rgba(255,101,165,1) 0,rgba(255,101,165,1) 13%,rgba(255,107,154,1) 35%,rgba(255,134,106,1) 100%);*/
 }
 
 .header-container{
@@ -21,7 +21,7 @@ body{
 
 #log{
     position: absolute;
-    background: url("lok.jpeg");
+    background: url("../images/logo.png");
     width: 120px;
     left: -40px;
     height: 100px;
@@ -29,26 +29,25 @@ body{
     margin: 0% 50px 0px 17%;
     padding: 10px;
     background-repeat: no-repeat;
-    //background-color: hotpink;
-    //background-position: center;
+    /*background-color: hotpink;*/
+    /*background-position: center;*/
     z-index: 1;
     
 
 }
 .logo{
     margin: 0px 0px 0px 0px;
-    
 }
 .clg-name{
     position: absolute;
     width: 50%;
     height: 11vh;
-    //margin: 45px 0px 0px 60%;
+    /*margin: 45px 0px 0px 60%;*/
     top:12.5%;
     left:50%;
     transform:translate(-50%, -50%);
     text-align:center;
-    //background-color: yellow;
+    /*background-color: yellow;*/
     color:white;
 }
 #p{
@@ -58,7 +57,7 @@ body{
     position: absolute;
     width: 80%;
     height: 7vh;
-    //background: #0056d2;
+    /*background: #0056d2;*/
     margin: 10% 0% 0px 9%;
     background: linear-gradient(#B6BDC3 , #586A7E);
     border-radius: 3px;
@@ -83,8 +82,8 @@ body{
 .helpDesk{
     width: 100%;
     height: 40vh;
-   // background:url("banner.jpeg");
-    //background-color:rgba(11,156,49,0.1);
+   /*background:url("banner.jpeg");*/
+   /*background-color:rgba(11,156,49,0.1);*/
     
 
 }
@@ -92,19 +91,19 @@ body{
 
 .subHelpdesk{
     display: inline-block;
-    //border: 2px solid black;
+    /*border: 2px solid black;*/
     color: white;
     width: 15%;
     padding: 5px;
     height: 30vh;
-    //background:rgba(255,255,255,.2);
+    /*background:rgba(255,255,255,.2);*/
     margin: 20px 0px 0px 50px;
     
     
 }
 
 #img1{
-    background: url("E:\html\Css\gym\cms\images");
+    background: url("../images/Admission_1.png");
     background-size: 20vh;
     background-repeat: no-repeat;
     margin: 25px 0px 0px 45px;
@@ -114,7 +113,7 @@ body{
 }
 
 #img2{
-    background: url("fship.png");
+    background: url("../images/fship.png");
     background-size: 20vh;
     background-repeat: no-repeat;
     margin: 25px 0px 0px 45px;
@@ -124,7 +123,7 @@ body{
 }
 
 #img3{
-    background: url("fee.png");
+    background: url("../images/fee.png");
     background-size: 20vh;
     background-repeat: no-repeat;
     margin: 25px 0px 0px 45px;
@@ -135,7 +134,7 @@ body{
 }
 
 #img4{
-    background: url("Notice.png");
+    background: url("../images/Notice.png");
     background-size: 20vh;
     background-repeat: no-repeat;
     margin: 25px 0px 0px 45px;
@@ -145,7 +144,7 @@ body{
 }
 
 #img5{
-    background: url("grievance.png");
+    background: url("../images/grievance.png");
     background-size: 20vh;
     background-repeat: no-repeat;
     margin: 25px 0px 0px 45px;
@@ -164,15 +163,15 @@ body{
 .recruiters{
     width: 100%;
     height: 50vh;
-  //  background-color:rgba(68, 67, 67, 0.1);
-    //margin: 40px 0px 0px 0px;
+    /*background-color:rgba(68, 67, 67, 0.1);*/
+    /*margin: 40px 0px 0px 0px;*/
 }
 
 .recruitBox{
     display:inline-block;
     position: relative;
     height: 15vh;
-//    background-color:rgb(100, 100, 100);
+    /*background-color:rgb(100, 100, 100);*/
     width: 15%;
     margin: 20px 0px 0px 19px;
 
@@ -184,14 +183,14 @@ body{
 }
 
 #recImg{
-    background: url("microfuzzy.png");
+    background: url("../images/microfuzzy.png");
     background-size: 29vh;
     background-repeat: no-repeat;
     mix-blend-mode:multiply;
 }
 
 #recImg1{
-    background: url("larson.png");
+    background: url("../images/larson.png");
     background-size: 29vh;
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
@@ -199,7 +198,7 @@ body{
 }
 
 #recImg2{
-    background: url("Infosys.jpg");
+    background: url("../images/Infosys.jpg");
     background-size: 29vh;
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
@@ -207,7 +206,7 @@ body{
     
 }
 #recImg3{
-    background: url("amazon.png");
+    background: url("../images/amazon.png");
     background-size: 29vh;
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
@@ -215,7 +214,7 @@ body{
     
 }
 #recImg4{
-    background: url("TCS.jpg");
+    background: url("../images/TCS.jpg");
     background-size: 29vh;
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
@@ -223,7 +222,7 @@ body{
     
 }
 #recImg5{
-    background: url("flipcart.png");
+    background: url("../images/flipcart.png");
     background-size: 29vh;
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
