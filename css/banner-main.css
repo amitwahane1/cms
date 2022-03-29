@@ -1,12 +1,12 @@
 .banner-wrapper{
     max-width: 100%;
-    //height: 40vh;
+    /*height: 40vh;*/
 }
 #banner-img{
     width:100%;
     height: 100vh;
-    //background-size: ;
-    background: url("E:\html\Css\gym\cms\images\main-banner.jpeg");
+    /*background-size: ;*/
+    background: url("../images/main-banner.jpeg");
     background-repeat: no-repeat;
     margin:0px 0px 0px 0px;
 }
@@ -28,7 +28,7 @@
     border-radius:30px;
     background-color: red;
     /* Create the gradient. */
-    background-image: linear-gradient(10deg, #f69e10 , #8c00ff);//bb00fa
+    background-image: linear-gradient(10deg, #f69e10 , #8c00ff);
     /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
@@ -37,9 +37,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
-    -moz-text-fil
+    /*-moz-text-fil:*/
   }
-  
   
   .fa:hover {
       opacity: 0.20;
@@ -98,7 +97,7 @@
   .footerHeading{
       text-align: center;
        /* Create the gradient. */
-    background-image: linear-gradient(10deg, #f69e10 , #8c00ff);//bb00fa
+    background-image: linear-gradient(10deg, #f69e10 , #8c00ff);
     /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
@@ -107,7 +106,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
-    -moz-text-fil
+    /*-moz-text-fil*/
   }
 
 
@@ -131,7 +130,7 @@
    .footerBottam{
       margin: 30px 0px 0px 37%;
       position: absolute;
-      //text-align:center;
+      /*text-align:center;*/
       color:white;
   }
   
