@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="register.html">
+
+  <style>
+    .container {
+      //position: relative;
+      display: block;
+      margin: 12% auto;
+      width: 20%;
+      padding: 5vh;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+      //border: 1px solid;
+      border-radius: 8px;
+      //z-index: 1;
+      backdrop-filter: blur(10px);
+    }
+
+
+    .text {
+      margin-top: 10px;
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .data {
+      // position: relative;
+      height: 45px;
+      margin-top: 40px;
+      width: 100%;
+      padding-right: 20px;
+
+    }
+
+    .data label {
+      font-size: 18px;
+
+    }
+
+    .data input {
+      height: 80%;
+      width: 99%;
+      //box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+      font-size: 17px;
+      border: 1px solid silver;
+      border-radius: 4px;
+
+    }
+
+    .forgot-pass {
+      margin-top: 20px;
+      float: right;
+
+    }
+
+    .forgot-pass a {
+      text-decoration: none;
+      color: #3973f1;
+    }
+
+    .forgot-pass a:hover {
+      //color: #b158f0;
+      text-decoration: underline;
+
+    }
+
+    .btn {
+      margin-top: 60px;
+      // overflow: hidden;
+    }
+
+    .btn button {
+      font-weight: 500;
+      padding: 15px;
+      width: 100%;
+      font-size: 20px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      background: #3973f1;
+      color: white;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .btn button:hover {
+      background: #032670;
+      color: white;
+    }
+
+    .signup-link {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .signup-link a {
+      font-size: 18px;
+      text-decoration: none;
+      color: #3973f1;
+    }
+
+    .signup-link a:hover {
+      text-decoration: underline;
+    }
+
+    #logHome {
+      color: red;
+      padding-bottom: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="container">
+      <div id="logHome"></div>
+      <div class="text">
+        Login
+      </div>
+      <form  onsubmit="return login()">
+        <div class="data">
+          <label>Email or Phone</label>
+          <input type="text" id="email">
+        </div>
+        <div class="data">
+          <label>Password</label>
+          <input type="password"  id="password">
+        </div>
+        <div class="forgot-pass">
+          <a href="#">Forgot Password?</a>
+        </div>
+        <div class="btn">
+          <button type="submit">Log In</button>
+
+        </div>
+        <div class="signup-link">
+
+          Not a member? <a href="register.html" target="_blank">Signup now</a>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  </div>
+
+
+  <script src="../cms/js/login.js"></script>
+</body>
+
+</html>
